@@ -40,15 +40,15 @@ Since data visualisation is a fundamental part of many subjects, the ability to 
 
 Colours are a fundamental aspect of data visualisation, especially because they tend to be the first thing people notice about a figure. For most, the initial thoughts we have about a graph are based on the colours we see, which can either intrigue us to understand it or make us completely uninterested. We see obvious examples of this daily, for example a poster in the street generally loses value if it is not well coloured, no matter the content. On the other hand, when colour is used well or even ingeniously, it can truly add to the content and our perception. Although for scientific graphs colour is not generally top priority, it can make or break the results. To illustrate that, let's look at 2 visualisations of the same data:
 
-<img src="Figures/Intro/badcolour.png" alt="drawing" width="475"/> <img src="Figures/Intro/goodcolour.png" alt="drawing" width="500"/>
+<img src="Figures/Intro/badcolour.png" alt="drawing" width="450"/> <img src="Figures/Intro/goodcolour.png" alt="drawing" width="475"/>
 
 This compares the effects of colour on plot beauty, where it is generally nicer to look at the colourful one (unless you like boring colours). The best part is that it is a very simple function to change in the plot code and adding a little bit more complexity on top can further the originality of it, for instance using a distinct colour palette.
 
 Although having a pretty graph is nice, the the most important function colour can have in data visualisation is to help with data interpretation. If we look at the next plots, we can begin to interpret the effect of biome on count simply from the colour (last plot). Of course we can also tell from the size of the bar, but the colour helps to accentuate the differences. The other 3 plots represent different examples of how colour can be used 'badly' or at least not in a positive way for interpretation. The 2 first ones are single-coloured, which means other than adding a bit of prettiness (e.g., pink 🐷), they do not help to visualise our results. The third plot used colour to represent individual biomes, but that makes the plot look more complicated and harder to read. Finally, the last plot uses colour as a way to accentuate the trends as well as making the plot nice 🍁.
 
-<img src="Figures/Intro/badcolourinterpretation.png" alt="drawing" width="475"/> <img src="Figures/Intro/pinkcolourinterpretation.png" alt="drawing" width="500"/> 
+<img src="Figures/Intro/badcolourinterpretation.png" alt="drawing" width="450"/> <img src="Figures/Intro/pinkcolourinterpretation.png" alt="drawing" width="475"/> 
 
-<img src="Figures/Intro/questionablecolourinterpretation.png" alt="drawing" width="500"/> <img src="Figures/Intro/goodcolourinterpretation.png" alt="drawing" width="500"/> 
+<img src="Figures/Intro/questionablecolourinterpretation.png" alt="drawing" width="475"/> <img src="Figures/Intro/goodcolourinterpretation.png" alt="drawing" width="475"/> 
 
 Colour is especially useful as a way to distinguishing variables or groups within the same plot. In `ggplot2`, there are many ways to colour plots, allowing for originality in your design. You could even create a trademark theme with a specific colour palette that you always use, essentially letting people identify the plot's creator from it's style. 
 
