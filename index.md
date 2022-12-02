@@ -48,7 +48,7 @@ Although having a pretty graph is nice, the the most important function colour c
 
 <img src="Figures/Intro/badcolourinterpretation.png" alt="drawing" width="450"/> <img src="Figures/Intro/pinkcolourinterpretation.png" alt="drawing" width="475"/> 
 
-<img src="Figures/Intro/questionablecolourinterpretation.png" alt="drawing" width="475"/> <img src="Figures/Intro/goodcolourinterpretation.png" alt="drawing" width="475"/> 
+<img src="Figures/Intro/questionablecolourinterpretation.png" alt="drawing" width="450"/> <img src="Figures/Intro/goodcolourinterpretation.png" alt="drawing" width="450"/> 
 
 Colour is especially useful as a way to distinguishing variables or groups within the same plot. In `ggplot2`, there are many ways to colour plots, allowing for originality in your design. You could even create a trademark theme with a specific colour palette that you always use, essentially letting people identify the plot's creator from it's style. 
 
@@ -144,7 +144,7 @@ Selecting colours in R can be quite straighforward and you can use various metho
 
 You can then create a 'list' of colour HEX numbers, which are assigned to specific colours. Or you can choose from a range of pre-made colours.
 
-<img src="Figures/Recap/colourpickerHEX.png" alt="drawing" width="500"/> <img src="Figures/Recap/colourpickeroptions.png" alt="drawing" width="500"/>
+<img src="Figures/Recap/colourpickerHEX.png" alt="drawing" width="450"/> <img src="Figures/Recap/colourpickeroptions.png" alt="drawing" width="450"/>
 
 As well as HEX numbers, R assigns simple numbers and names to colours, which you can find in the [R colours guide](/Tutorial/R_colours_guide.pdf). 
 
@@ -269,7 +269,7 @@ We will have a closer look into 'scale_colour_gradientn() later on (go to **<a h
   ```                     
  The first plot creates a gradient bar plot for the three groups combined, assessing overall diversity, whereas the second bar plot groups them to see whether the community diversity is the same accross microhabitats. 
 
-<img src="Figures/Recap/rank_abundance1.3.png" alt="drawing" width="500"/> <img src="Figures/Recap/rank_abundance1.4.png" alt="drawing" width="500"/> 
+<img src="Figures/Recap/rank_abundance1.3.png" alt="drawing" width="450"/> <img src="Figures/Recap/rank_abundance1.4.png" alt="drawing" width="450"/> 
 
 Which of the two better represents our data? That utterly depends on your research question. If we were only interested in seeing the average rank abundance in the community then the first figure illustrate it best. But if we are asking whether there is variance between the 3 microhabitats, then we should use the latter or the intial scatter plot made earlier. 
 
@@ -509,7 +509,7 @@ Let's use them on our data to create very different looking plots:
           axis.title.y = element_text(margin=margin(r=8))))
 ```
 
-<img src="Figures/Packages/colorbrewer1.png" alt="drawing" width="500"/> <img src="Figures/Packages/colorbrewer2.png" alt="drawing" width="500"/>
+<img src="Figures/Packages/colorbrewer1.png" alt="drawing" width="450"/> <img src="Figures/Packages/colorbrewer2.png" alt="drawing" width="450"/>
 
 Since the palettes used are very different, it makes our plots look almost unrelated. That's the power of colour! Once again, if we are aiming to see differences in microhabitats then the bar plot is better suited, but the scatter plot looks nicer and is easier to read straightforwardly. To decide on plot colour factors to include, of which there are MANY, you should fully consider the context of your data visualisation: are you aiming to publish this for the general public? Or is it as a part of a scientific report? And of course think about what your plot interpretations are, since these can be better represented and emphasised through colours. 
  
@@ -574,7 +574,7 @@ library(shiny)
  ```
 The code remains similar to that seen in the beginning, simply adding the new function names and defining the option if needed (e.g., light-blue).  Note: in the bar plot, we gave the smooth lines manual values because they needed to fit with the blue gradient (getting colours to mesh well together is harder than it looks). 
  
-<img src="Figures/Packages/NPGscatter.png" alt="drawing" width="500"/> <img src="Figures/Packages/materialdesign.png" alt="drawing" width="500"/>
+<img src="Figures/Packages/NPGscatter.png" alt="drawing" width="450"/> <img src="Figures/Packages/materialdesign.png" alt="drawing" width="450"/>
 
 The graphs look good, but not all that amazing considering the colour schemes are inspired by scientific journals. To challenge yourself, you could try to find the most corresponding theme for you by looking at all the different options! You might be here a while though. 
 
@@ -645,7 +645,7 @@ gradientpalette <- wes_palette("Moonrise3", 100, type = "continuous")
 ```
 Et voilà! This is how our final plots turned out:
  
- <img src="Figures/Packages/WesAnderson1.png" alt="drawing" width="500"/> <img src="Figures/Packages/WesAnderson2.png" alt="drawing" width="500"/>
+ <img src="Figures/Packages/WesAnderson1.png" alt="drawing" width="450"/> <img src="Figures/Packages/WesAnderson2.png" alt="drawing" width="450"/>
 
 This version of the bar plot seems to portray the gradient best and isn't too harsh to look at (yes colour can be TOO much). The Wes Anderson palettes are quite diverse and provide quite professional looking plots, especially since you can create your own gradient using `wes_palette`. 
 
