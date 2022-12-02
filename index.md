@@ -283,7 +283,7 @@ ggsave(plotnameinR, filename = "Tutorial/Figures/Recap/plot.png", device = "png"
 You can set your file directory to wherever you want to find the plot and change width and height depending on preference and use.
 
 <a name="section2"></a>
-## 2.  Adding complexity 🔥 
+## 2.  Adding complexity
 Now we are moving onto more 'serious' colouring using packages. You may be content with your own colour palette, but for bigger data sets, larger numbers of colour values are required. 
  
 <a name="section2.1"></a>
