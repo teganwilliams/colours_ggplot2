@@ -7,6 +7,7 @@
 #### <a href="#section1"> 1. Foundations of colour in ggplot2 </a>
  - <a href="#section1.1"> 1.1. Background on Colour in Data Visualisation </a>
  - <a href="#section1.2"> 1.2. Key Colour Functions and Uses </a>
+
 #### <a href="#section2"> 2. Adding complexity</a>
  - <a href="#section2.1"> 2.1. Intro to Packages
  - <a href="#section2.2"> 2.2. Viridis 
