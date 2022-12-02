@@ -132,7 +132,7 @@ Notice we did still group into microhabitats, but no colour functions were appli
 
 Here are the figures produced:
 
-<img src="Figures/Recap/rank_abundance0.1.png" alt="drawing" width="500"/><img src="Figures/Recap/rank_abundance0.2.png" alt="drawing" width="500"/>
+<img src="Figures/Recap/rank_abundance0.1.png" alt="drawing" width="450"/><img src="Figures/Recap/rank_abundance0.2.png" alt="drawing" width="450"/>
 
 As you can see, the default settings are black points and lines in the scatter, and grey bars for the barplot with a blue line for the `smooth()` function. In these initial plot, although our data is grouped, it is difficult to see the variation between them due to the values being quite close together. One very simple way to improve this is of course with the use of colours!
 
@@ -216,7 +216,7 @@ Let's give a quick example for each of these being used on our dataset:
 **Note:** the functions are very similar since we are using the same plot theme, the only differences are the way we added colour into them. For the scatter plot, we added the `colour` funtion into the core aes() because we wanted **all** the graph elements to be grouped and coloured in the same way (points **and** lines). On the other hand, for the bar plot we only added the `fill` function to the bar plot aes() because we wanted to keep the smooth line **ungrouped** and chose to colour it black using `colour = 1`. We used the exact same values for the colours, where we stated three because we have 3 groups. 
 That code gives us:
 
-<img src="Figures/Recap/rank_abundance1.1.png" alt="drawing" width="500"/> <img src="Figures/Recap/rank_abundance1.2.png" alt="drawing" width="500"/>
+<img src="Figures/Recap/rank_abundance1.1.png" alt="drawing" width="450"/> <img src="Figures/Recap/rank_abundance1.2.png" alt="drawing" width="450"/>
 
 This already looks much better, but it could still be improved, especially the bar plot. Since relative abundance is continuous, we can use it to give our plot a colour gradient to accentuate our results.
 
