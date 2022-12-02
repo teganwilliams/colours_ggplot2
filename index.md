@@ -55,7 +55,7 @@ Colour is especially useful as a way to distinguishing variables or groups withi
 In this tutorial, we will first revert back to the basics of colour in `ggplot2` using a specific example on Rank Abundace Curves which are commonly used in Ecology. Then we will dive in a bit deeper to grasp more complex functions, with the use of different colour packages. Finally, you should be able to create your own style of colour in your plots and make use of it depending on your research question and audience. 
 
 <a name="section1.2"></a>
-### 1.2. :art: Key functions and uses
+### 1.2. 🎨: Key functions and uses
 
 Although the basic colour functions were mostly covered in the 2 data visualisation tutorials mentioned, they were quite spread out among the other functions and can take some time to find. For that reason, let's start by briefly summarise the key concepts learned as we gradually work through our data to observe the effects of different uses of colour in plots. 
 
@@ -455,6 +455,7 @@ brewer.pal(3, 'Set2')
 # 2. Display 'n' colours from the chosen palette in the viewer
 display.brewer.pal(3, 'Set2')
 ```
+	
 <img src="Figures/Packages/RColorBrewerSet2.png" alt="drawing" width="300"/>
  
  
