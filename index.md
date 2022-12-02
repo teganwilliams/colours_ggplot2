@@ -445,9 +445,9 @@ There are 3 types of palettes produced by RColorBrewer:
  - diverging: emphasises extreme highs and lows (generally for continuous data)
 
 Functions:
-1. Get colour HEX numbers using `brewer.pal(n, 'name')`
-	
 ``` r  
+# 1. Get colour HEX numbers using `brewer.pal(n, 'name')`	
+
 brewer.pal(3, 'Set2')
 
 # Output: "#66C2A5" "#FC8D62" "#8DA0CB"
