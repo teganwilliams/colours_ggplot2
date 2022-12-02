@@ -17,6 +17,6 @@ In this folder you can find all files needed to complete the tutorial on 'Colour
 - [Data](/Tutorial/RankAbundance.csv)
 - [Figures](/Tutorial/Figures)
 
-<img src="Figures/waterfallunsplash.jpg" alt="drawing" width="600"/>
+<img src="Figures/Photos/waterfallunsplash.jpg" alt="drawing" width="600"/>
 Photo by <a href="https://unsplash.com/@onun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nuno Antunes</a> on <a href="https://unsplash.com/s/photos/moss-rainbow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
