@@ -1,6 +1,8 @@
 ## Colours in `gglot2` - Data Visualisation Tutorial 
   *-by Tegan Williams, last edited on 2nd December 2022*
   
+Website link: https://github.com/EdDataScienceEES/tutorial-teganwilliams.git
+  
 ### Learning outcomes
 
 - understand the importance of colour in data visualisation
