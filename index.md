@@ -446,6 +446,7 @@ There are 3 types of palettes produced by RColorBrewer:
 
 Functions:
 1. Get colour HEX numbers using `brewer.pal(n, 'name')`
+	
 ``` r  
 brewer.pal(3, 'Set2')
 
